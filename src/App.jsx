@@ -14,7 +14,7 @@ function App() {
         <h1>isBanned: {val.isBanned.toString()}</h1>
         <button
           onClick={() => setVal({ ...val, isBanned: !val.isBanned })}
-          className={`px-3 py-1 rounded ${val.isBanned ? "bg-sky-500" : "bg-red-500"} text-sm mt-2 text-white`}
+          className={`px-3 py-2 rounded ${val.isBanned ? "bg-sky-500" : "bg-red-500"} text-sm mt-2 text-white`}
         >
           {val.isBanned ? "Unban" : "Ban"}
         </button>
